@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "name": "주식회사 팀스파르타",
+    "description": "우리회사에 대한 설명입니다. 짝짝짝!!",
+    "image": "https://static.spartacodingclub.kr/TeamSparta-Inc/scc-frontend/assets/icons/logo-active.png"
+  },
+  "todos": [
+    {
+      "id": "e209",
+      "title": "테스트입니다.",
+      "isDone": true,
+      "contents": "내용입니다."
+    },
+    {
+      "id": "171c",
+      "title": "12123",
+      "contents": "",
+      "isDone": true
+    },
+    {
+      "id": "a1dc",
+      "title": "ddd",
+      "contents": "ddd",
+      "isDone": false
+    }
+  ]
+}
