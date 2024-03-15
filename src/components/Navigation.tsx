@@ -10,7 +10,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav>
+    <nav className="flex flex-col p-2 m-2 h-fit border border-sky-500 rounded-md">
       {link.map((path) => (
         <Link key={path.name} href={path.href}>
           {path.name}

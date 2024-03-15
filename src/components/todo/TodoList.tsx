@@ -3,7 +3,7 @@ import TodoCard from "./TodoCard";
 
 const TodoList = ({ todos, isDone }: { todos: TTodo[]; isDone: boolean }) => {
   return (
-    <div>
+    <div className="mb-5">
       <p>{isDone ? "Done!!" : "Working..."}</p>
       <ul>
         {todos

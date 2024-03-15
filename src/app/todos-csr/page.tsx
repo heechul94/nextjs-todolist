@@ -13,8 +13,8 @@ const TodosCsrPage = () => {
 
   if (isLoading) return <div>Loading...</div>;
   return (
-    <>
-      <p>csr page</p>
+    <main className="flex flex-col">
+      <h1 className="mb-5">CSR Page</h1>
       <AddForm />
       <TodoList todos={todos} isDone={false} />
       <TodoList todos={todos} isDone={true} />
@@ -25,7 +25,7 @@ const TodosCsrPage = () => {
       >
         할일정보통계보러가기
       </button>
-    </>
+    </main>
   );
 };
 
